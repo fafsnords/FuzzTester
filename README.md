@@ -11,7 +11,7 @@ $ pip install -r requirements
 
 $ python fuzz.py
 ```
-![Screenshot (41)](https://user-images.githubusercontent.com/100557534/172819368-7e9eb2d5-d4bf-45bc-a281-9fc6968f76e8.png)
+![Screenshot (41)](https://user-images.githubusercontent.com/100557534/172836079-eb08ec1d-20df-4b3d-9aed-451978549be7.png)
 ### SQLi
 you can choose the union based or string based method
 ```
