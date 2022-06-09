@@ -36,4 +36,4 @@ choose rce fuzzer
 ```
 [+] python fuzz.py --target http://127.0.0.1/vuln --RCE
 ```
-![Screenshot (45)](https://user-images.githubusercontent.com/100557534/172838131-72313c91-1cc5-45c1-862a-a2596c7c3b62.png)
+![Screenshot (45)](https://user-images.githubusercontent.com/100557534/172844131-4b4ea7dc-1c80-4e09-9704-9f7afec09380.png)
