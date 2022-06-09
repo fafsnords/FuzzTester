@@ -40,6 +40,7 @@ class FuzzTester:
                 print(Fore.GREEN + '{0}{1}'.format(url, xss) + Fore.YELLOW + ' || ' + Fore.BLUE + 'Not Vuln')
             else:
               print(Fore.RED + '\nwaf detected')
+              break
          print(Fore.WHITE + '\nRESULT\n' + Fore.GREEN + self.result)
 
        if '--LFI' in choose: # select lfi
@@ -53,6 +54,7 @@ class FuzzTester:
                 print(Fore.GREEN + '{0}{1}'.format(url, lfi) + Fore.YELLOW + ' || ' + Fore.BLUE + 'Not Vuln')
             else:
               print(Fore.RED + '\nwaf detected')
+              break
          print(Fore.WHITE + '\nRESULT\n' + Fore.GREEN + self.result)
 
        if '--RCE' in choose: # select rce
@@ -66,6 +68,7 @@ class FuzzTester:
                 print(Fore.GREEN + '{0}{1}'.format(url, rce) + Fore.YELLOW + ' || ' + Fore.BLUE + 'Not Vuln')
             else:
               print(Fore.RED + '\nwaf detected')
+              break
          print(Fore.WHITE + '\nRESULT\n' + Fore.GREEN + self.result)
 
    def fuzz_sqli(self, column, check): # automated sql injection
