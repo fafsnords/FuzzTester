@@ -25,3 +25,9 @@ choose xss fuzzer
 [+] python fuzz.py --target http://127.0.0.1/vuln --XSS
 ```
 ![Screenshot (43)](https://user-images.githubusercontent.com/100557534/172829567-9fa09907-2e4f-474a-82d9-2c39a31e9c06.png)
+### LFI
+choose lfi fuzzer
+```
+[+] python fuzz.py --target http://127.0.0.1/vuln --LFI
+```
+![Screenshot (44)](https://user-images.githubusercontent.com/100557534/172831070-ef8b0cd9-0f7e-400b-8255-68cac802549f.png)
