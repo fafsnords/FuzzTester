@@ -4,6 +4,7 @@
 ### Installation
 ```
 $ git clone https://github.com/fafsnords/FuzzTester
+
 $ cd FuzzTester
 
 $ pip install -r requirements
