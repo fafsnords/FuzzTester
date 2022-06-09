@@ -1,6 +1,6 @@
 # FuzzTester
 ### Introduction
-**FuzzTester** is a pentesting tool can send a randomize payloads to trigger the vulnerability
+**FuzzTester** is a pentesting tool that used for send a randomize payloads to trigger the vulnerability
 ### Installation
 ```
 $ git clone https://github.com/fafsnords/FuzzTester
