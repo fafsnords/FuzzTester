@@ -30,6 +30,7 @@ choose lfi fuzzer
 ```
 [+] python fuzz.py --target http://127.0.0.1/vuln --LFI
 ```
+![Screenshot (44)](https://user-images.githubusercontent.com/100557534/172840484-2d251a6f-75f2-49d3-b727-18e44765ba58.png)
 ### RCE
 choose rce fuzzer
 ```
