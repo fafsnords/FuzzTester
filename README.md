@@ -30,4 +30,4 @@ choose lfi fuzzer
 ```
 [+] python fuzz.py --target http://127.0.0.1/vuln --LFI
 ```
-![Screenshot (44)](https://user-images.githubusercontent.com/100557534/172831070-ef8b0cd9-0f7e-400b-8255-68cac802549f.png)
+![Screenshot (44)](https://user-images.githubusercontent.com/100557534/172831528-646090f2-a6ac-46ba-9e03-21d1f7c4d774.png)
