@@ -20,4 +20,8 @@ you can choose the union based or string based method
 ```
 ![Screenshot (42)](https://user-images.githubusercontent.com/100557534/172829245-b23980d9-95d7-411c-89c4-58c3ac0b2390.png)
 ### XSS
-![image](https://user-images.githubusercontent.com/100557534/172828595-b8cedac3-b63e-4ece-b46a-996078078a77.png)
+choose xss fuzzer
+```
+[+] python fuzz.py --target http://127.0.0.1/vuln --XSS
+```
+![Screenshot (43)](https://user-images.githubusercontent.com/100557534/172829567-9fa09907-2e4f-474a-82d9-2c39a31e9c06.png)
