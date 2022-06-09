@@ -19,3 +19,5 @@ you can choose the union based or string based method
 [+] python fuzz.py --taget http://127.0.0.1/vuln --string-based
 ```
 ![Screenshot (42)](https://user-images.githubusercontent.com/100557534/172825441-83673b46-bf1e-43bc-adfe-601336dedabc.png)
+### XSS
+![image](https://user-images.githubusercontent.com/100557534/172828595-b8cedac3-b63e-4ece-b46a-996078078a77.png)
