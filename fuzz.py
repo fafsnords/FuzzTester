@@ -12,7 +12,10 @@
 
 import sys
 import requests
+import colorama
 from colorama import Fore
+
+colorama.init()
 
 http = requests.Session()
 
