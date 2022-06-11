@@ -7,7 +7,7 @@ $ git clone https://github.com/fafsnords/FuzzTester
 
 $ cd FuzzTester
 
-$ pip install -r requirements
+$ pip install -r requirements.txt
 
 $ python fuzz.py
 ```
